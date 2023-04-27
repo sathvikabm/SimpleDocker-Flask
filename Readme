@@ -1,0 +1,6 @@
+#Build
+docker build -t test -f Dockerfile .
+
+
+#Compose up
+docker-compose up --build 
